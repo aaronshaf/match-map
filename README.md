@@ -30,7 +30,7 @@ const Successful = Symbol()
 const Error = Symbol()
 
 const state = Successful
-const statusMessage = match(state) ([
+const statusMessage = matchMap(state) ([
   [Loading, 'Your task is processing'],
   [Successful, 'Your task was successful!'],
   [Error, 'There was an error with your task :(']
@@ -40,7 +40,7 @@ const statusMessage = match(state) ([
 Alternatively:
 
 ```javascript
-const statusMessage = match(state) (new Map([
+const statusMessage = matchMap(state) (new Map([
   [Loading, 'Your task is processing'],
   [Successful, 'Your task was successful!'],
   [Error, 'There was an error with your task :(']
