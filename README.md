@@ -12,19 +12,19 @@ npm install match-map --save
 
 ## Usage
 
-```
+```javascript
 import matchMap from 'match-map'
 ```
 
 Or:
 
-```
+```javascript
 const matchMap = require('match-map')
 ```
 
 Then:
 
-```
+```javascript
 const Processing = Symbol()
 const Successful = Symbol()
 const Error = Symbol()
@@ -39,7 +39,7 @@ const statusMessage = match(state) ([
 
 Alternatively:
 
-```
+```javascript
 const statusMessage = match(state) (new Map([
   [Loading, 'Your task is processing'],
   [Successful, 'Your task was successful!'],
