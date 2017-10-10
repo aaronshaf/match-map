@@ -1,0 +1,15 @@
+{
+  "name": "match-map",
+  "version": "1.0.0",
+  "description": "Match against the keys in a map",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "git@github.com:aaronshaf/match-map.git",
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
