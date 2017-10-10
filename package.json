@@ -1,6 +1,6 @@
 {
   "name": "match-map",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Match against the keys in a map",
   "main": "index.js",
   "scripts": {
